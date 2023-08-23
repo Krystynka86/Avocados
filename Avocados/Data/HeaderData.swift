@@ -8,7 +8,7 @@
 import SwiftUI
 
 // MARK: - HEADER DATA
-let headerData: [Header] = [
+let headersData: [Header] = [
     Header(
         image: "avocado-slice-1",
         headline: "Avocados",
