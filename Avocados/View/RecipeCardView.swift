@@ -48,28 +48,10 @@ struct RecipeCardView: View {
                     .italic()
                 
                 // RATING
+                RecipeRatingView(recipe: recipe)
                 
                 // COOKING
-                HStack(alignment: .center, spacing: 12) {
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "person.2")
-                        Text("Serves: \(recipe.serves)")
-                    } //: HStack
-                    
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "clock")
-                        Text("Prep: \(recipe.preparation)")
-                    } //: HStack
-        
-                    HStack(alignment: .center, spacing: 2) {
-                        Image(systemName: "flame")
-                        Text("Cooking: \(recipe.cooking)")
-                    } //: HStack
-        
-        
-                } //: HStack
-                .font(.footnote)
-                .foregroundColor(Color.gray)
+                
             }
             .padding()
             .padding(.bottom, 12)
