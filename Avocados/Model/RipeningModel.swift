@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: RIPENING MODEL
 
-struct Ripenning: Identifiable {
+struct Ripening: Identifiable {
     var id = UUID()
     var image: String
     var stage: String
